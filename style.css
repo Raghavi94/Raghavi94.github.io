@@ -20,6 +20,9 @@ hr{
     max-width:600px;
     margin:auto;/*auto means text is center-aligned*/
 }
+
+  
+  
 /*link*/
 .link{
     text-decoration: none;
@@ -69,15 +72,33 @@ hr{
     padding:2rem;
 
 }
+.hero p{
+    font: size 24px;
+    text-align: center;
+    margin-top:2px;
+    font-weight: bold;
+    color:var(--dark-gray);
+}
+.hero p span{
+    color:var(--primary-color);
+    font-weight: bold;
+}
 .hero .hero-img{
     max-width:300px;
     display:block;
     margin:auto;
+    border-radius: 50%;;
 }
 .hero .hero-heading{
     color:var(--dark-gray);
     padding-top:1rem;
     text-align: center;
+}
+.hero .hero-heading span{
+    text-align:center;
+    margin-top:2px;
+    font-weight:35px;
+    color:var(--primary-color);
 }
 .hero .hero-heading .heading-inverted{
     color:var(--primary-color);
@@ -94,16 +115,37 @@ hr{
     background-color: var(--off-white);
 }
 /*footers*/
+footer i{
+    font-size:30px;
+}
 .footer{
     background-color:var(--primary-color);
-    padding:2rem 1rem;
+    padding:1.3rem;
     text-align:center;
     border-top-right-radius: 1rem;
+    color:white;
     
 }
-.footer .link{
+.footer-header{
     color:white;
 }
-.footer ul {
-    padding-inline-start:0px;
+
+
+.footer-list li {
+    display: inline;
+    margin: 0 0.5rem;
+}
+
+.list-unordered {
+    list-style-type: none;
+}
+.links {
+    text-decoration: none;
+    color:white;
+    font-size: large;
+}
+
+.list-inline li {
+    display: inline;
+    margin: 1rem;
 }
