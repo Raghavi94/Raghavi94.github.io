@@ -32,6 +32,7 @@ hr{
     box-sizing: border-box;
     text-decoration: none;
     padding:0.5rem 1rem;
+    margin:auto;
 }
 
 .link-primary{
@@ -56,6 +57,7 @@ hr{
     margin:1rem 1rem 1rem 0rem;
     text-align:center;
     margin-top:2rem;
+    
     
     
 }
@@ -94,6 +96,7 @@ hr{
 /*header*/
 .hero{
     padding:2rem;
+    align-content: center;
 
 }
 .hero p{
