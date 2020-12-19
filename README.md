@@ -1,2 +1,1 @@
-# neogcamp-my-portfolio
-## building portfolio
+# My new portfolio
